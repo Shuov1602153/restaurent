@@ -1,0 +1,282 @@
+@import url("https://fonts.googleapis.com/css2?family=Gentium+Book+Basic:ital,wght@0,400;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap");
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Gentium Book Basic', serif;
+}
+
+.overly {
+  background-color: rgba(6, 70, 143, 0.582);
+}
+
+nav .fab {
+  color: #DAB33E;
+}
+
+nav .nav-link {
+  color: #fff;
+}
+
+nav .logo {
+  height: 3.75rem;
+  width: 6.25rem;
+}
+
+nav .fsz {
+  font-size: 1rem;
+}
+
+.header-section {
+  background: url(../img/header.bg.png);
+  background-repeat: no-repeat;
+  background-position: center left;
+  background-size: cover;
+}
+
+.header-section .header-heading {
+  width: 59.062rem;
+  margin: auto;
+}
+
+.header-section .button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.header-section .butn-left {
+  background: rgba(0, 0, 0, 0.459);
+  color: #fff;
+  border: 0.0625rem solid rgba(0, 0, 0, 0.7);
+  padding: 0.625rem 3.125rem;
+}
+
+.header-section .butn-left:hover {
+  background: rgba(0, 0, 0, 0.659);
+}
+
+.header-section .butn-right {
+  background: rgba(255, 254, 254, 0.096);
+  color: #fff;
+  border: 1px solid rgba(255, 254, 254, 0.178);
+  padding: 0.625rem 3.125rem;
+}
+
+.header-section .butn-right:hover {
+  background: rgba(255, 254, 254, 0.316);
+}
+
+.header-section .heading {
+  font-size: 5.8rem;
+}
+
+.about {
+  background: url(../img/about-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.ingredient {
+  background: url(../img/ingredient-bg.png);
+  background-repeat: no-repeat;
+  background-position: top left;
+}
+
+.ingredient .cardbg {
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.menu-item {
+  background: url(../img/menu-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top right;
+}
+
+.menu-item img {
+  width: 200px;
+  display: block;
+  margin: auto;
+}
+
+.menu-item .txt {
+  border-top: 1px solid #DAB33E;
+}
+
+.menu-item .Appetisers-heading {
+  color: #DAB33E;
+  font-weight: bold;
+}
+
+.menu-item .menu, .menu-item .price {
+  color: #DAB33E;
+}
+
+.review {
+  background: url(../img/review-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.review .cardbg {
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.review .card {
+  width: 50%;
+  margin: auto;
+}
+
+.review p::before {
+  position: relative;
+}
+
+.review .quote {
+  position: absolute;
+  font-size: 50px;
+  margin-right: 10px;
+  color: #9E9B96;
+  left: 11px;
+  top: 130px;
+}
+
+.reserve {
+  background: url(../img/reservation-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.reserve .customers {
+  font-size: .8rem;
+  margin: 0;
+  padding: 0;
+}
+
+.reserve .Delicious {
+  font-size: .9rem;
+}
+
+.reserve label {
+  display: block;
+  text-align: left;
+  color: #DAB33E;
+}
+
+.reserve input {
+  height: 1.8rem;
+  width: 11.25rem;
+  padding: 5px 10px;
+}
+
+.reserve ::-webkit-input-placeholder {
+  color: #7C7C7C;
+  font-weight: normal;
+  font-family: 'Open Sans', sans-serif;
+  font-size: .8rem;
+}
+
+.reserve :-ms-input-placeholder {
+  color: #7C7C7C;
+  font-weight: normal;
+  font-family: 'Open Sans', sans-serif;
+  font-size: .8rem;
+}
+
+.reserve ::-ms-input-placeholder {
+  color: #7C7C7C;
+  font-weight: normal;
+  font-family: 'Open Sans', sans-serif;
+  font-size: .8rem;
+}
+
+.reserve ::placeholder {
+  color: #7C7C7C;
+  font-weight: normal;
+  font-family: 'Open Sans', sans-serif;
+  font-size: .8rem;
+}
+
+.reserve .img-fluid {
+  max-width: 100%;
+  height: 25rem;
+}
+
+.reserve .book {
+  background: #c9a131;
+  border: none;
+  padding: 7px 55px;
+  color: #fff;
+  font-size: 1.15rem;
+}
+
+.contact {
+  background: #000;
+}
+
+.contact .icons img {
+  width: 38px;
+  height: 35px;
+  margin: 20px 10px;
+}
+
+.contact .icons a {
+  margin: 20px 10px;
+  color: #fff;
+  font-size: 32px;
+  display: block;
+}
+
+.contact p {
+  font-size: .9rem;
+  padding: 1px 15px;
+  font-weight: bold;
+}
+
+.contact .date p {
+  font-size: .93rem;
+}
+
+@media (max-width: 992px) {
+  .header-section .header-heading {
+    width: 85%;
+    margin: auto;
+  }
+  .header-section .button {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .header-section .butn-left {
+    background: rgba(0, 0, 0, 0.459);
+    color: #fff;
+    border: 0.0625rem solid rgba(0, 0, 0, 0.7);
+    padding: 0.625rem 3.125rem;
+  }
+  .header-section .butn-left:hover {
+    background: rgba(0, 0, 0, 0.659);
+  }
+  .header-section .butn-right {
+    background: rgba(255, 254, 254, 0.096);
+    color: #fff;
+    border: 1px solid rgba(255, 254, 254, 0.178);
+    padding: 10px 50px;
+  }
+  .header-section .butn-right:hover {
+    background: rgba(255, 254, 254, 0.316);
+  }
+  .header-section .heading {
+    font-size: 4rem;
+  }
+}
+/*# sourceMappingURL=Style.css.map */
